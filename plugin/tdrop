@@ -17,5 +17,5 @@ for file; do
     file="${PWD%/}/${file}"
   fi
 
-  echo -e "\033]51;[\"call\", \"Tapi_EditermEditFile\", [\"${VIM_EDITERM_OPENER}\", \"\", \"$file\"]]\007"
+  echo -e "\033]51;[\"call\", \"Tapi_EditermEditFile\", [\"${VIM_EDITERM_OPENER}\", \"\", \"$file\", \"\"]]\007"
 done
